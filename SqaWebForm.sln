@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SqaWebForm", "SqaWebForm\", "{24617B00-C540-40E7-AB33-2F986DC66980}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{259c56c0-4eb5-4766-889a-dbc4e6a52e69}|SqaAssignment.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_58552"
 		Debug.AspNetCompiler.PhysicalPath = "SqaWebForm\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58552\"
@@ -25,13 +26,33 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SqaWebForm", "SqaWebForm\",
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqaAssignment.Tests", "..\SQA_Assignment\SqaAssignment.Tests\SqaAssignment.Tests.csproj", "{50C8E13B-146B-40DF-8BF4-2D02B77B77BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqaAssignment", "..\SQA_Assignment\SqaAssignment\SqaAssignment.csproj", "{259C56C0-4EB5-4766-889A-DBC4E6A52E69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EE74ECF2-1236-43B0-90DE-4D4BFE6C0D5D}"
+	ProjectSection(SolutionItems) = preProject
+		Selenium.cs = Selenium.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{24617B00-C540-40E7-AB33-2F986DC66980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{24617B00-C540-40E7-AB33-2F986DC66980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24617B00-C540-40E7-AB33-2F986DC66980}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{24617B00-C540-40E7-AB33-2F986DC66980}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{50C8E13B-146B-40DF-8BF4-2D02B77B77BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C8E13B-146B-40DF-8BF4-2D02B77B77BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50C8E13B-146B-40DF-8BF4-2D02B77B77BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50C8E13B-146B-40DF-8BF4-2D02B77B77BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{259C56C0-4EB5-4766-889A-DBC4E6A52E69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{259C56C0-4EB5-4766-889A-DBC4E6A52E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{259C56C0-4EB5-4766-889A-DBC4E6A52E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{259C56C0-4EB5-4766-889A-DBC4E6A52E69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
